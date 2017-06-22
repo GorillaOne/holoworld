@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: f76188a054ee94ceb8ba9b92eaf48184
+timeCreated: 1498154379
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anemone1
+    100002: Anemone1_MeshPart0
+    100004: Anemone1_MeshPart1
+    100006: Anemone1_MeshPart2
+    100008: Base
+    100010: Brain1
+    100012: Brain1_MeshPart0
+    100014: Brain1_MeshPart1
+    100016: Bubbles
+    100018: Crabby2
+    100020: Guppy1
+    100022: //RootNode
+    100024: Plants1
+    100026: PM3D_Sphere3D
+    100028: Rock1
+    100030: Shell2
+    100032: Shell2_MeshPart0
+    100034: Shell2_MeshPart1
+    100036: Starfish3
+    400000: Anemone1
+    400002: Anemone1_MeshPart0
+    400004: Anemone1_MeshPart1
+    400006: Anemone1_MeshPart2
+    400008: Base
+    400010: Brain1
+    400012: Brain1_MeshPart0
+    400014: Brain1_MeshPart1
+    400016: Bubbles
+    400018: Crabby2
+    400020: Guppy1
+    400022: //RootNode
+    400024: Plants1
+    400026: PM3D_Sphere3D
+    400028: Rock1
+    400030: Shell2
+    400032: Shell2_MeshPart0
+    400034: Shell2_MeshPart1
+    400036: Starfish3
+    2300000: Anemone1_MeshPart0
+    2300002: Anemone1_MeshPart1
+    2300004: Anemone1_MeshPart2
+    2300006: Base
+    2300008: Brain1_MeshPart0
+    2300010: Brain1_MeshPart1
+    2300012: Bubbles
+    2300014: Crabby2
+    2300016: Guppy1
+    2300018: Plants1
+    2300020: PM3D_Sphere3D
+    2300022: Rock1
+    2300024: Shell2_MeshPart0
+    2300026: Shell2_MeshPart1
+    2300028: Starfish3
+    3300000: Anemone1_MeshPart0
+    3300002: Anemone1_MeshPart1
+    3300004: Anemone1_MeshPart2
+    3300006: Base
+    3300008: Brain1_MeshPart0
+    3300010: Brain1_MeshPart1
+    3300012: Bubbles
+    3300014: Crabby2
+    3300016: Guppy1
+    3300018: Plants1
+    3300020: PM3D_Sphere3D
+    3300022: Rock1
+    3300024: Shell2_MeshPart0
+    3300026: Shell2_MeshPart1
+    3300028: Starfish3
+    4300000: Bubbles
+    4300002: PM3D_Sphere3D
+    4300004: Starfish3
+    4300006: Anemone1_MeshPart0
+    4300008: Anemone1_MeshPart1
+    4300010: Anemone1_MeshPart2
+    4300012: Brain1_MeshPart0
+    4300014: Brain1_MeshPart1
+    4300016: Guppy1
+    4300018: Rock1
+    4300020: Base
+    4300022: Plants1
+    4300024: Crabby2
+    4300026: Shell2_MeshPart0
+    4300028: Shell2_MeshPart1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
