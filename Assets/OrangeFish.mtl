@@ -1,0 +1,5 @@
+newmtl fish-A
+map_Kd fish-A.jpg
+Kd 1.0 1.0 1.0
+d 1.0
+
