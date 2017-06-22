@@ -1,3 +1,6 @@
 /Library
 /ProjectSettings
 /Temp
+/.vs/Holoworld/v14/*.suo
+/*.csproj
+/*.sln
