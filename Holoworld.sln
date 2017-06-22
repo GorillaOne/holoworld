@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holoworld.Plugins", "holoworld.Plugins.csproj", "{576876A7-555A-55F4-FE10-2910679CB746}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holoworld", "holoworld.csproj", "{636252F1-F4DD-4B5F-A3F2-C1438A20498C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holoworld.Editor.Plugins", "holoworld.Editor.Plugins.csproj", "{0EC1A277-F240-2A1A-BDC7-247ED9B206E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holoworld.Editor", "holoworld.Editor.csproj", "{3E170E06-14C0-0E7C-86DA-274CFD2AAB12}"
 EndProject
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{576876A7-555A-55F4-FE10-2910679CB746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576876A7-555A-55F4-FE10-2910679CB746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576876A7-555A-55F4-FE10-2910679CB746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576876A7-555A-55F4-FE10-2910679CB746}.Release|Any CPU.Build.0 = Release|Any CPU
 		{636252F1-F4DD-4B5F-A3F2-C1438A20498C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{636252F1-F4DD-4B5F-A3F2-C1438A20498C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{636252F1-F4DD-4B5F-A3F2-C1438A20498C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{636252F1-F4DD-4B5F-A3F2-C1438A20498C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC1A277-F240-2A1A-BDC7-247ED9B206E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC1A277-F240-2A1A-BDC7-247ED9B206E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC1A277-F240-2A1A-BDC7-247ED9B206E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC1A277-F240-2A1A-BDC7-247ED9B206E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E170E06-14C0-0E7C-86DA-274CFD2AAB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E170E06-14C0-0E7C-86DA-274CFD2AAB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E170E06-14C0-0E7C-86DA-274CFD2AAB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
