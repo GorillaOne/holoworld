@@ -36,8 +36,8 @@ public class PeriodicSoundEffect : MonoBehaviour {
 		int numberOfSongs = audioClips.Count; //Gets the number of songs we have in the list. 
 		int songIndex = randomClassInstance.Next(numberOfSongs); //This returns in integer between 0 and the maximum number of songs we have. 
 																					//This gets the song using that index and plays it. 
-		source.clip = audioClips[songIndex];
-		source.Play();
+																					//source.clip = audioClips[songIndex];
+		source.PlayOneShot(audioClips[songIndex]);
 
 		yield return new WaitForEndOfFrame();
 		yield return new WaitUntil(() => source.isPlaying == false); 
