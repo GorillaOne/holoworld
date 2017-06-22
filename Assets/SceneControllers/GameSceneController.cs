@@ -12,7 +12,7 @@ public class GameSceneController : MonoBehaviour
 {
 
 	public Text instructionText;
-	public GameObject referenceSphere;
+	public GameObject dioramaFramingBox;
 
 	// Use this for initialization
 	void Start()
@@ -30,7 +30,6 @@ public class GameSceneController : MonoBehaviour
 	public void DioramaSetupInputState_OnTap(InteractionSourceKind source, int tapCount, UnityEngine.Ray headRay)
 	{
 		instructionText.text = "You tapped! OH SNAP!";
-		referenceSphere.transform.position = headRay.origin;
 
 		// Do a raycast into the world based on the user's
 		// head position and orientation.
@@ -42,12 +41,14 @@ public class GameSceneController : MonoBehaviour
 
 		Vector3 movement = gazeDirection * hitInfo.distance;
 		var newPosition = headPosition + movement;
-		PositionDiorama(newPosition);
 		
+		PositionDiorama(newPosition, hitInfo.normal);	
 	}
 
-	private void PositionDiorama(Vector3 newPosition)
+	private void PositionDiorama(Vector3 newPosition, Vector3 surfaceNormal)
 	{
-		referenceSphere.transform.position = newPosition; 
+		dioramaFramingBox.SetActive(true); 
+		dioramaFramingBox.transform.position = newPosition;
+		dioramaFramingBox.transform.forward = surfaceNormal; 
 	}
 }
